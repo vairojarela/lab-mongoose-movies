@@ -1,5 +1,5 @@
 'use strict';
-const Celebrity = require('../models/Celebrity');
+
 const Movie = require('../models/Movie');
 const mongoose = require('mongoose');
 

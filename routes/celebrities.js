@@ -37,6 +37,7 @@ router.get('/:id/edit', async (req, res, next) => {
     next(error);
   }
 });
+
 router.post('/:id/', async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -52,6 +53,7 @@ router.post('/:id/', async (req, res, next) => {
     next(error);
   }
 });
+
 router.post('/:id/delete', async (req, res, next) => {
   try {
     const { id } = req.params;
